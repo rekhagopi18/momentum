@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    DO NOT ADD COLORS THAT ARE NOT PART OF THE DESIGNATED COLOR PALETTE
+    If a color is not available in this file, check the color
+    palette for the proper name and value, and if the color is not
+    part of the palette, work with UX to pick a different color that
+    is part of the palette.
+
+    https://www.figma.com/file/zktddifdcJ47X9m12xVVfy/Core-Styles-2.0?node-id=421%3A531
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- SPARK COLORS -->
+    <!-- Color Token - Core -->
+    <!-- These color tokens are the foundation of our system.
+    Please use these sparingly or help define a new symantec usage as this helps maintain the integrity
+    of our color system. -->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!-- White -->
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!--Black (Only to be used for SVG) -->
+    <color name="black">#000000</color>
+
+    <!-- Gray Colors -->
+    <color name="gray_05">#F7F7F7</color>
+    <color name="gray_10">#EDEDED</color>
+    <color name="gray_20">#DEDEDE</color>
+    <color name="gray_30">#CCCCCC</color>
+    <color name="gray_40">#B2B2B2</color>
+    <color name="gray_50">#949494</color>
+    <color name="gray_60">#707070</color>
+    <color name="gray_70">#545454</color>
+    <color name="gray_80">#3B3B3B</color>
+    <color name="gray_90">#292929</color>
+    <color name="gray_95">#1C1C1C</color>
+    <color name="gray_100">#121212</color>
+
+    <!-- Blue Colors -->
+    <color name="blue_05">#E5FBFF</color>
+    <color name="blue_10">#C7F6FF</color>
+    <color name="blue_20">#91EBFF</color>
+    <color name="blue_30">#52DCFF</color>
+    <color name="blue_40">#07C1F5</color>
+    <color name="blue_50">#00A0D1</color>
+    <color name="blue_60">#007AA3</color>
+    <color name="blue_70">#005E7D</color>
+    <color name="blue_80">#064157</color>
+    <color name="blue_90">#092D3B</color>
+    <color name="blue_95">#091E26</color>
+
+    <!-- Green Colors -->
+    <color name="green_05">#EDFAF4</color>
+    <color name="green_10">#BEFADE</color>
+    <color name="green_20">#78F5B8</color>
+    <color name="green_30">#31E88C</color>
+    <color name="green_40">#00CF64</color>
+    <color name="green_50">#00AB50</color>
+    <color name="green_60">#00823B</color>
+    <color name="green_70">#03612C</color>
+    <color name="green_80">#08421F</color>
+    <color name="green_90">#092E16</color>
+    <color name="green_95">#081F10</color>
+
+    <!-- Yellow Colors -->
+    <color name="yellow_05">#FFF7E3</color>
+    <color name="yellow_10">#FFECC2</color>
+    <color name="yellow_20">#FFD98C</color>
+    <color name="yellow_30">#FFC14F</color>
+    <color name="yellow_40">#FC9D03</color>
+    <color name="yellow_50">#D97F00</color>
+    <color name="yellow_60">#A85F00</color>
+    <color name="yellow_70">#7D4705</color>
+    <color name="yellow_80">#54330D</color>
+    <color name="yellow_90">#38240E</color>
+    <color name="yellow_95">#261A0D</color>
+
+    <!-- Red Colors -->
+    <color name="red_05">#FFF5F2</color>
+    <color name="red_10">#FFE8E3</color>
+    <color name="red_20">#FFD5CC</color>
+    <color name="red_30">#FFBBAD</color>
+    <color name="red_40">#FF9580</color>
+    <color name="red_50">#F7644A</color>
+    <color name="red_60">#D4371C</color>
+    <color name="red_70">#A12512</color>
+    <color name="red_80">#6E1D13</color>
+    <color name="red_90">#4A1812</color>
+    <color name="red_95">#301210</color>
+
+    <!-- Orange Colors -->
+    <color name="orange_10">#FAF4EB</color>
+    <color name="orange_20">#FCE4C7</color>
+    <color name="orange_30">#FFCA99</color>
+    <color name="orange_40">#FF9D52</color>
+    <color name="orange_50">#F26B1D</color>
+    <color name="orange_60">#C74F0E</color>
+    <color name="orange_70">#914017</color>
+    <color name="orange_80">#59311E</color>
+    <color name="orange_90">#33221B</color>
+    <color name="orange_100">#211916</color>
+
+    <!-- Mint Colors -->
+    <color name="mint_10">#E9F7F3</color>
+    <color name="mint_20">#BAF5E7</color>
+    <color name="mint_30">#74E8D1</color>
+    <color name="mint_40">#30C9B0</color>
+    <color name="mint_50">#16A693</color>
+    <color name="mint_60">#148579</color>
+    <color name="mint_70">#12615A</color>
+    <color name="mint_80">#12423F</color>
+    <color name="mint_90">#102B2A</color>
+    <color name="mint_100">#0C1C1B</color>
+
+    <!-- Cyan Colors -->
+    <color name="cyan_10">#E6F9FA</color>
+    <color name="cyan_20">#B2F4F7</color>
+    <color name="cyan_30">#67E7F0</color>
+    <color name="cyan_40">#22C7D6</color>
+    <color name="cyan_50">#00A3B5</color>
+    <color name="cyan_60">#008094</color>
+    <color name="cyan_70">#066070</color>
+    <color name="cyan_80">#0A414D</color>
+    <color name="cyan_90">#0B2A30</color>
+    <color name="cyan_100">#091C21</color>
+
+    <!-- Purple Colors -->
+    <color name="purple_10">#FCF2FC</color>
+    <color name="purple_20">#FCE1FC</color>
+    <color name="purple_30">#FAC3F8</color>
+    <color name="purple_40">#F294F1</color>
+    <color name="purple_50">#E060DE</color>
+    <color name="purple_60">#C233C4</color>
+    <color name="purple_70">#932099</color>
+    <color name="purple_80">#601E66</color>
+    <color name="purple_90">#3B1840</color>
+    <color name="purple_100">#251329</color>
+
+    <!-- Cobalt Colors -->
+    <color name="cobalt_10">#E5F8FF</color>
+    <color name="cobalt_20">#C7EEFF</color>
+    <color name="cobalt_30">#99DDFF</color>
+    <color name="cobalt_40">#5EBFF7</color>
+    <color name="cobalt_50">#279BE8</color>
+    <color name="cobalt_60">#0A78CC</color>
+    <color name="cobalt_70">#08599C</color>
+    <color name="cobalt_80">#103C63</color>
+    <color name="cobalt_90">#12283D</color>
+    <color name="cobalt_100">#0F1A26</color>
+
+</resources>

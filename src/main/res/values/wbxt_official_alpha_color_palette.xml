@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- black_alpha_20 used only for FAB shadow color-->
+    <color name="black_alpha_20">#29000000</color>
+    <color name="black_alpha_10">#1A000000</color>
+
+    <color name="white_alpha_08">#14FFFFFF</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+    <color name="white_alpha_80">#CCFFFFFF</color>
+    <color name="white_alpha_95">#F2FFFFFF</color>
+
+    <color name="gray_100_alpha_90">#E6121212</color>
+</resources>
